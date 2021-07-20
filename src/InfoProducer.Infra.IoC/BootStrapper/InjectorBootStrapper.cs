@@ -1,3 +1,4 @@
+using System;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace InfoProducer.Infra.IoC.BootStrapper
@@ -6,7 +7,7 @@ namespace InfoProducer.Infra.IoC.BootStrapper
     {
         public static void RegisterContainerServices(IServiceCollection services)
         {
-
+            services.AddTransient<EventHandler>();
         }
     }
 }

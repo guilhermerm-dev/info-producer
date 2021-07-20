@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InfoProducer.Infra.IoC\InfoProducer.Infra.IoC.csproj" />
+    <ProjectReference Include="..\InfoProducer.Domain\InfoProducer.Domain.csproj" />
   </ItemGroup>
 
 </Project>
